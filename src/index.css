@@ -1,0 +1,57 @@
+/* resets and initial styles */
+
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* initial variables */
+
+:root {
+  /* initial colors */
+
+  --mainColor: #eaeaea;
+  --secondaryColor: #fff;
+  --borderColor: #c1c1c1;
+  --mainText: black;
+  --secondaryText: #4b5156;
+  --themeDotBorder: #24292e;
+  --previewBg: rgba(251, 249, 243, 0.8);
+  --previewShadow: #f0ead6;
+  --buttonColor: black;
+  --overlayColor: rgba(0, 0, 0, 0.85);
+  --burgerColor: black;
+
+  /* screen sizes */
+
+  --screen-small: 640px;
+  --screen-medium: 1024px;
+  --screen-large: 1400px;
+
+  /* other variables */
+
+  --nav-height: 50px;
+  --menu-burger-height: 3px;
+  --preview-shadow-distance: 30px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
