@@ -9,6 +9,7 @@ header {
 
 nav {
   background-color: var(--secondaryColor);
+  border-bottom: 1px solid var(--borderColor);
 }
 
 nav .nav-container {
@@ -35,15 +36,20 @@ nav .nav-container {
 }
 
 .nav-links .nav-link a {
-  color: var(--secondaryText);
+  color: var(--navDesktopTextColor);
   font-size: 1.2rem;
   font-family: var(--header-font-2);
   font-weight: 500;
+  transition: 200ms ease-in;
   /* letter-spacing: 0.07rem; */
 }
 
+.nav-links .nav-link a:hover {
+  color: var(--navDesktopHoverTextColor);
+}
+
 .nav-links-mobile .nav-link a {
-  color: var(--mainColor);
+  color: var(--navMobileTextColor);
 }
 
 nav .menu-btn {

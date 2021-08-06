@@ -1,11 +1,29 @@
-import React from 'react';
+import React, { useState, useRef } from 'react';
+import { Helmet } from 'react-helmet';
 import red_ts from '../../images/taylor_swift_red.jpeg';
 import myData from '../data.json';
 import './Intro.css';
 
 function Intro() {
+  const themes = {
+    white: '',
+    purple: 'purple.css',
+    green: 'green.css',
+    blue: 'blue.css',
+  };
+
+  const [currentTheme, setCurrentTheme] = useState(themes.green);
+
+  console.log('current theme = ', currentTheme);
   return (
     <div className='container'>
+      <Helmet>
+        <link
+          id='theme-style'
+          rel='stylesheet'
+          href={`/themes/${currentTheme}`}
+        />
+      </Helmet>
       <div id='home' className='main-container'>
         <div className='greeting-wrapper'>
           <h1>Hi i am {myData['greeting-name']}</h1>
@@ -28,17 +46,25 @@ function Intro() {
                 data-mode='light'
                 id='light-mode'
                 className='theme-dot'
+                onClick={() => setCurrentTheme(themes.white)}
               ></div>
-              <div data-mode='blue' id='blue-mode' className='theme-dot'></div>
+              <div
+                data-mode='blue'
+                id='blue-mode'
+                className='theme-dot'
+                onClick={() => setCurrentTheme(themes.blue)}
+              ></div>
               <div
                 data-mode='green'
                 id='green-mode'
                 className='theme-dot'
+                onClick={() => setCurrentTheme(themes.green)}
               ></div>
               <div
                 data-mode='purple'
                 id='purple-mode'
                 className='theme-dot'
+                onClick={() => setCurrentTheme(themes.purple)}
               ></div>
             </div>
           </div>

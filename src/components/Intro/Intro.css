@@ -2,7 +2,6 @@
 
 .container {
   background-color: var(--mainColor);
-  padding-bottom: 3rem;
 }
 
 .main-container {
@@ -19,6 +18,7 @@
   font-size: 3rem;
   font-family: var(--intro-font);
   font-weight: 400;
+  color: var(--mainText);
 }
 
 /* Intro wrapper grid */
@@ -164,16 +164,15 @@
 }
 
 .right-column #preview {
-  width: 70%; /* TODO: need to tweak this */
+  width: 75%; /* TODO: need to tweak this */
   max-width: 420px;
   display: inline-block;
-  border: 2px solid #17a2b8;
+  border: 2px solid var(--textBoxOutline);
   background-color: var(--previewBg);
   position: relative;
   padding-right: var(--preview-shadow-distance);
   padding-bottom: var(--preview-shadow-distance);
   padding-left: 1em;
-  background-color: var(--previewBg);
 }
 
 .right-column #preview::before {
@@ -200,13 +199,14 @@
   font-size: 2rem;
   font-family: var(--header-font-2);
   font-weight: 600;
+  color: var(--mainText);
 }
 
 #preview .corner {
   width: 7px;
   height: 7px;
   border-radius: 50%;
-  border: 2px solid #17a2b8;
+  border: 2px solid var(--textBoxOutline);
   background-color: #fff;
   position: absolute;
 }

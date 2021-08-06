@@ -1,0 +1,33 @@
+:root {
+  --mainColor: #382a3f;
+  --secondaryColor: #46344e;
+
+  --borderColor: #1d1520;
+
+  --mainText: #fff;
+  --secondaryText: #eeeeee;
+  --textBoxBackgroundColor: rgba(62, 47, 68);
+  --textBoxOutline: rgb(190, 82, 100);
+
+  --themeDotBorder: #fff;
+
+  --previewBg: rgba(75, 58, 82, 0.8);
+  --previewShadow: rgb(43, 31, 48);
+
+  /* rgba(32, 17, 37, 0.596); */
+
+  --navDesktopTextColor: #bbb;
+  --navDesktopHoverTextColor: #fff;
+  --navMobileTextColor: #eee;
+  --overlayColor: #382a3f;
+  --burgerColor: #ccc;
+
+  --btnTextColor: #fff;
+  --btnColor: #2c1f33;
+  --btnHoverColor: #160e1a;
+
+  --socialIconsColor: #bbb;
+  --socialIconsHoverColor: #fff;
+
+  --linkColor: rgb(184, 36, 184);
+}

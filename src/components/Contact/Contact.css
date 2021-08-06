@@ -10,6 +10,7 @@
   text-align: center;
   font-size: 2rem;
   font-family: var(--header-font-2);
+  color: var(--mainText);
 }
 
 /* Contact grid */
@@ -26,7 +27,6 @@
 .contact-grid .contact-section-1 {
   align-self: center;
   justify-self: center;
-  /* background-color: rgb(128, 91, 91); */
   margin-block: 2rem;
   grid-area: section-1;
 }
@@ -35,6 +35,7 @@
   font-size: 1.5rem;
   text-align: center;
   font-family: var(--header-font-2);
+  color: var(--secondaryText);
 }
 
 #contact-form {
@@ -52,13 +53,6 @@
   margin-top: 1rem;
 }
 
-#contact-form * {
-  font-size: 0.9rem;
-  letter-spacing: 0.1rem;
-  font-family: var(--header-font-2);
-  font-weight: 500;
-}
-
 .input-field {
   width: 100%;
   padding-top: 10px;
@@ -67,10 +61,17 @@
   border-radius: 5px;
   border: 1px solid var(--borderColor);
   padding: 0.3rem;
+  font-size: 0.9rem;
+  letter-spacing: 0.1rem;
+  font-family: var(--secondary-font);
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  color: var(--secondaryText);
 }
 
 #contact-form label {
   line-height: 2.7em;
+  color: var(--mainText);
 }
 
 #contact-form textarea {
@@ -84,11 +85,15 @@
   padding-top: 10px;
   padding-bottom: 10px;
   color: #fff;
-  background-color: var(--buttonColor);
+  background-color: var(--btnColor);
   border: none;
-  font-family: var(--header-font-2);
+  font-family: var(--secondary-font);
   font-size: 1.1rem;
   font-weight: 500;
+}
+
+.submit-btn:hover {
+  background-color: var(--btnHoverColor);
 }
 
 /* section 2 */
@@ -102,9 +107,8 @@
   /* align-items: center; */
 }
 
-.contact-section-2 .contacts-container {
-  /* background-color: seagreen; */
-}
+/* .contact-section-2 .contacts-container {
+} */
 
 /* contack container */
 
@@ -123,12 +127,12 @@
 .contact-icon-container .contact-icon {
   width: 35px;
   height: 35px;
+  color: var(--mainText);
 }
 
 /* contact details */
 
 .contact-container .contact-details {
-  /* background-color: slateblue; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -165,9 +169,14 @@
 }
 
 .contact-links i {
-  color: var(--secondaryText);
+  color: var(--socialIconsColor);
   font-size: 2rem;
   margin: 0.5rem;
+  transition: 200ms ease-in;
+}
+
+.contact-links i:hover {
+  color: var(--socialIconsHoverColor);
 }
 
 @media all and (max-width: 800px) {
@@ -179,7 +188,7 @@
   }
 
   .contact-grid .contact-section-1 {
-    margin: 0rem;
+    margin-top: 1.5rem;
   }
 
   .contact-grid .contact-section-2 {

@@ -12,16 +12,16 @@ function Navbar() {
           <div className='nav-logo'></div>
           <ul className='nav-links'>
             <li className='nav-link'>
-              <a href='#'>Home</a>
+              <a href='#home'>Home</a>
             </li>
             <li className='nav-link'>
-              <a href='#'>About</a>
+              <a href='#about'>About</a>
             </li>
             <li className='nav-link'>
               <a href='#'>Projects</a>
             </li>
             <li className='nav-link'>
-              <a href='#'>Contact</a>
+              <a href='#contact'>Contact</a>
             </li>
           </ul>
         </div>
@@ -33,16 +33,16 @@ function Navbar() {
         <div className={`nav-menu-overlay ${menuOpen ? 'open' : ''}`}>
           <ul className='nav-links nav-links-mobile'>
             <li className='nav-link' style={{ '--order': 1 }}>
-              <a href='#'>Home</a>
+              <a href='#home'>Home</a>
             </li>
             <li className='nav-link' style={{ '--order': 2 }}>
-              <a href='#'>About</a>
+              <a href='#about'>About</a>
             </li>
             <li className='nav-link' style={{ '--order': 3 }}>
               <a href='#'>Projects</a>
             </li>
             <li className='nav-link' style={{ '--order': 4 }}>
-              <a href='#'>Contact</a>
+              <a href='#contact'>Contact</a>
             </li>
           </ul>
         </div>

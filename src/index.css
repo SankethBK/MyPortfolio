@@ -3,6 +3,7 @@
 html {
   font-size: 100%;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 *,
@@ -26,17 +27,33 @@ body {
 
   --mainColor: #eaeaea;
   --secondaryColor: #fff;
+
   --borderColor: #c1c1c1;
+
   --mainText: black;
   --secondaryText: #4b5156;
+  --textBoxBackgroundColor: rgba(251, 249, 243, 0.8);
+  --textBoxOutline: #ac5a31;
+
   --themeDotBorder: #24292e;
+
   --previewBg: rgba(251, 249, 243, 0.8);
   --previewShadow: #f0ead6;
-  --buttonColor: rgb(78, 13, 13);
+
+  --navDesktopTextColor: #b68973;
+  --navDesktopHoverTextColor: #5c3d2e;
+  --navMobileTextColor: #fff;
   --overlayColor: rgba(0, 0, 0);
   --burgerColor: black;
-  --btnColor: hsl(46, 46%. 89%);
-  --btnHoverColor: hsl(66, 66%, 95%);
+
+  --btnTextColor: white;
+  --btnColor: #b37c61;
+  --btnHoverColor: #ac5a31;
+
+  --socialIconsColor: #4b5156;
+  --socialIconsHoverColor: #000;
+
+  --linkColor: rgb(0, 0, 255);
 
   /* font family */
   --intro-font: 'Russo One', sans-serif;
@@ -58,6 +75,14 @@ body {
   --menu-burger-height: 3px;
   --preview-shadow-distance: 30px;
   --section-gap: 5rem;
+}
+
+body * {
+  transition: 300ms ease-in;
+}
+
+body {
+  background-color: var(--secondaryColor);
 }
 
 ul {

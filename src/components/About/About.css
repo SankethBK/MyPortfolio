@@ -1,15 +1,17 @@
 /* About container */
 
-.about-wrapper {
+#about {
   width: min(1200px, 95%);
   margin: 0 auto;
   margin-top: var(--section-gap);
+  background-color: var(--secondaryColor);
 }
 
 .about-wrapper .about-header {
   text-align: center;
   font-size: 2rem;
   font-family: var(--header-font-2);
+  color: var(--mainText);
 }
 
 /* about grid */
@@ -45,12 +47,13 @@
   font-family: var(--header-font-2);
   font-weight: 500;
   letter-spacing: 0.05rem;
+  color: var(--mainText);
 }
 
 .about-section-1 .my-resume {
   background-color: var(--btnColor);
   margin: 1rem;
-  transition: 150ms ease-in-out;
+  transition: 150ms ease-in;
 }
 
 .about-section-1 .my-resume:hover {
@@ -59,16 +62,13 @@
 
 .my-resume a {
   display: block;
-  color: var(--mainText);
+  color: var(--btnTextColor);
   width: 100%;
   text-align: center;
   border: 1px solid var(--borderColor);
   padding-block: 0.5rem;
   font-family: var(--secondary-font);
   font-weight: 500;
-}
-
-.my-resume a:hover {
 }
 
 /* section 2 */
@@ -83,15 +83,18 @@
   position: relative;
   width: 70%;
   align-self: center;
-  border: 2px solid #17a2b8;
-  background-color: var(--previewBg);
+  border: 2px solid var(--textBoxOutline);
+  background-color: var(--textBoxBackgroundColor);
   padding: var(--preview-shadow-distance);
 }
 
 .details-text #github-link {
   font-size: 1rem;
-  margin-top: 0.5rem;
-  color: blue; /* TODO: need to add a variable to color links*/
+  margin-top: 0.5rem; /* TODO: need to add a variable to color links*/
+}
+
+#github-link a {
+  color: var(--linkColor);
 }
 
 .details-text p {
@@ -105,7 +108,7 @@
   width: 7px;
   height: 7px;
   border-radius: 50%;
-  border: 2px solid #17a2b8;
+  border: 2px solid var(--textBoxOutline);
   background-color: #fff;
   position: absolute;
 }
@@ -155,6 +158,7 @@
   font-size: 1.8rem;
   text-align: center;
   font-family: var(--header-font-2);
+  color: var(--mainText);
 }
 
 /* skills grid */
@@ -183,6 +187,7 @@
   font-size: 1.3rem;
   font-family: var(--secondary-font);
   font-weight: 600;
+  color: var(--mainText);
 }
 
 .skills-box .skills-list {
@@ -195,11 +200,11 @@
   font-family: var(--header-font-1);
   font-weight: 400;
   font-size: 1.2rem;
-  /* color: var(--secondaryText); */
+  color: var(--secondaryText);
 }
 
 .skills-list .skill-item:not(:last-child) {
-  margin-bottom: 0.3rem;
+  margin-bottom: 0.5rem;
 }
 
 /* skills section 2 */
@@ -215,8 +220,8 @@
   width: 70%;
   position: relative;
   align-self: center;
-  background-color: var(--previewBg);
-  border: 2px solid #17a2b8;
+  background-color: var(--textBoxBackgroundColor);
+  border: 2px solid var(--textBoxOutline);
   padding: var(--preview-shadow-distance);
 }
 
@@ -231,7 +236,7 @@
   width: 7px;
   height: 7px;
   border-radius: 50%;
-  border: 2px solid #17a2b8;
+  border: 2px solid var(--textBoxOutline);
   background-color: #fff;
   position: absolute;
 }
