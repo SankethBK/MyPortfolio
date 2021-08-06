@@ -9,7 +9,7 @@ function Navbar() {
     <header className='header'>
       <nav>
         <div className='nav-container'>
-          <div className='nav-logo'>Sanketh B.K</div>
+          <div className='nav-logo'></div>
           <ul className='nav-links'>
             <li className='nav-link'>
               <a href='#'>Home</a>
@@ -31,7 +31,7 @@ function Navbar() {
         </div>
 
         <div className={`nav-menu-overlay ${menuOpen ? 'open' : ''}`}>
-          <ul className='nav-links'>
+          <ul className='nav-links nav-links-mobile'>
             <li className='nav-link' style={{ '--order': 1 }}>
               <a href='#'>Home</a>
             </li>

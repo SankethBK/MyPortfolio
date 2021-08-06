@@ -16,6 +16,7 @@ html {
 body {
   margin: 0;
   padding: 0;
+  height: 100vh;
 }
 
 /* initial variables */
@@ -31,21 +32,32 @@ body {
   --themeDotBorder: #24292e;
   --previewBg: rgba(251, 249, 243, 0.8);
   --previewShadow: #f0ead6;
-  --buttonColor: black;
-  --overlayColor: rgba(0, 0, 0, 0.85);
+  --buttonColor: rgb(78, 13, 13);
+  --overlayColor: rgba(0, 0, 0);
   --burgerColor: black;
+  --btnColor: hsl(46, 46%. 89%);
+  --btnHoverColor: hsl(66, 66%, 95%);
+
+  /* font family */
+  --intro-font: 'Russo One', sans-serif;
+  --header-font-1: 'Josefin Sans', sans-serif;
+  --header-font-2: 'Ubuntu', sans-serif;
+  --primary-font: 'Roboto Mono', monospace;
+  --secondary-font: 'Montserrat', sans-serif;
 
   /* screen sizes */
 
   --screen-small: 640px;
-  --screen-medium: 1024px;
-  --screen-large: 1400px;
+  --screen-medium: 800px;
+  --screen-large: 1024px;
+  --screen-xlarge: 1400px;
 
   /* other variables */
 
   --nav-height: 50px;
   --menu-burger-height: 3px;
   --preview-shadow-distance: 30px;
+  --section-gap: 5rem;
 }
 
 ul {

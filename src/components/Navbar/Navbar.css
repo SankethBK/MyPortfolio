@@ -8,7 +8,7 @@ header {
 /* Navbar desktop  */
 
 nav {
-  background-color: var(--mainColor);
+  background-color: var(--secondaryColor);
 }
 
 nav .nav-container {
@@ -31,14 +31,19 @@ nav .nav-container {
 }
 
 .nav-links .nav-link {
-  font-size: 1.4rem;
   margin: 0.1em 0.8em;
 }
 
 .nav-links .nav-link a {
   color: var(--secondaryText);
-  font-weight: 550;
-  letter-spacing: 0.07rem;
+  font-size: 1.2rem;
+  font-family: var(--header-font-2);
+  font-weight: 500;
+  /* letter-spacing: 0.07rem; */
+}
+
+.nav-links-mobile .nav-link a {
+  color: var(--mainColor);
 }
 
 nav .menu-btn {

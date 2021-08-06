@@ -1,5 +1,35 @@
 {
-    "greeting_name": "Sanketh", 
-    "whatIDo": "I am a Banglore based computer scinece gradute, aspiring full stack developer. I am open for jobs, internships and freelancing"
+  "greeting-name": "Sanketh",
+  "what-i-do": "I am a Banglore based computer scinece gradute, aspiring full stack developer. I am open for jobs, internships and freelancing",
 
+  "about-me-text": "Hi i am Sanketh. I am an undergraduate student at PES University, Banglore. I have 3 years of programming experience. I am about to complete my specialization in Machine Learning and Cybersecurity. I am looking forward for a career in full stack development.",
+
+  "details-list": {
+    "Name": " Sanketh B.K",
+    "Email": " sankethbk7777@gmail.com",
+    "Degree": " B.tech (2018 - 2022)",
+    "University": " PES University, Bengaluru",
+    "Nationality": " Indian"
+  },
+
+  "skills-text": "I am more focussed towards frontend, I also enjoy writing and deploying REST API's. I have worked with data visualization and machine learning libraries in Python. I have also completed some courses on Machine Learning and Deep Learning on Coursera, Udemy, etc.",
+
+  "experienced-skills": [
+    "Reactjs",
+    "JavaScript",
+    "Django and Django REST Framework",
+    "Python",
+    "HTML",
+    "CSS / SASS",
+    "Git"
+  ],
+
+  "familiar-skills": [
+    "Node.js",
+    "MongoDB",
+    "Python Data Science Libraries (Pandas, Matplotlib,...)",
+    "PostgreSQL",
+    "AWS",
+    "C++"
+  ]
 }

@@ -1,5 +1,10 @@
 /* main container */
 
+.container {
+  background-color: var(--mainColor);
+  padding-bottom: 3rem;
+}
+
 .main-container {
   width: min(1200px, 95%);
   margin: 0 auto;
@@ -11,6 +16,9 @@
 
 .greeting-wrapper h1 {
   text-align: center;
+  font-size: 3rem;
+  font-family: var(--intro-font);
+  font-weight: 400;
 }
 
 /* Intro wrapper grid */
@@ -85,6 +93,9 @@
   text-align: center;
   font-size: 1.5rem;
   margin-top: 1rem;
+  font-weight: 600;
+  font-family: var(--header-font-1);
+  color: var(--secondaryText);
 }
 
 .left-column #profile_pic {
@@ -176,10 +187,19 @@
   right: var(--preview-shadow-distance);
 }
 
+#preview p {
+  font-family: var(--header-font-1);
+  font-size: 1.3rem;
+  line-height: 1.3;
+  color: var(--secondaryText);
+}
+
 #preview h3 {
   margin-top: 0.7em;
-  margin-bottom: 0.3em;
+  margin-bottom: 0.4em;
   font-size: 2rem;
+  font-family: var(--header-font-2);
+  font-weight: 600;
 }
 
 #preview .corner {
@@ -215,7 +235,7 @@
   margin: 0.4em; /* TODO:: nned to tweak this value */
 }
 
-@media all and (max-width: 1024px) {
+@media all and (max-width: 800px) {
   .intro-wrapper {
     grid-template-columns: 1fr;
     grid-template-areas:
