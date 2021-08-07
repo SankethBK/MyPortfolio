@@ -28,6 +28,9 @@
   --socialIconsHoverColor: #fff;
 
   --linkColor: rgb(56, 184, 56);
+
+  --cardGradientTopColor: rgba(205, 255, 185, 0.8);
+  --cardGradientBottomColor: rgb(13, 110, 13);
 }
 
 .fdf {

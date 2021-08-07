@@ -55,6 +55,9 @@ body {
 
   --linkColor: rgb(0, 0, 255);
 
+  --cardGradientTopColor: rgba(241, 221, 194, 0.8);
+  --cardGradientBottomColor: rgb(110, 60, 13);
+
   /* font family */
   --intro-font: 'Russo One', sans-serif;
   --header-font-1: 'Josefin Sans', sans-serif;

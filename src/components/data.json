@@ -31,5 +31,43 @@
     "PostgreSQL",
     "AWS",
     "C++"
+  ],
+
+  "projects": [
+    {
+      "name": "Project 1",
+      "thumbnail": "/project-thumbnails/p1.jpeg",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem nobis sit soluta. Magnam, dolorum a. Et, necessitatibus blanditiis! Distinctio, voluptatum.",
+      "source-code": "https://github.com/SankethBK/MyPortfolio",
+      "demo": null
+    },
+    {
+      "name": "Project 1",
+      "thumbnail": "/project-thumbnails/p1.jpeg",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem nobis sit soluta. Magnam, dolorum a. Et, necessitatibus blanditiis! Distinctio, voluptatum.",
+      "source-code": "https://github.com/SankethBK/MyPortfolio",
+      "demo": "here"
+    },
+    {
+      "name": "Project 1",
+      "thumbnail": "/project-thumbnails/p1.jpeg",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem nobis sit soluta. Magnam, dolorum a. Et, necessitatibus blanditiis! Distinctio, voluptatum.",
+      "source-code": "https://github.com/SankethBK/MyPortfolio",
+      "demo": "here"
+    },
+    {
+      "name": "Project 1",
+      "thumbnail": "/project-thumbnails/p1.jpeg",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem nobis sit soluta. Magnam, dolorum a. Et, necessitatibus blanditiis! Distinctio, voluptatum.",
+      "source-code": "https://github.com/SankethBK/MyPortfolio",
+      "demo": null
+    },
+    {
+      "name": "Project 1",
+      "thumbnail": "/project-thumbnails/p1.jpeg",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem nobis sit soluta. Magnam, dolorum a. Et, necessitatibus blanditiis! Distinctio, voluptatum.",
+      "source-code": "https://github.com/SankethBK/MyPortfolio",
+      "demo": "here"
+    }
   ]
 }

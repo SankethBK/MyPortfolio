@@ -20,13 +20,11 @@
   margin-top: 2rem;
   display: grid;
   grid-template-columns: 1fr 2fr;
-  /* background-color: aqua; */
 }
 
 /* section 1 */
 
 .about-grid .about-section-1 {
-  /* background-color: blueviolet; */
   align-self: center;
   justify-self: center;
   margin-block: 1rem;
