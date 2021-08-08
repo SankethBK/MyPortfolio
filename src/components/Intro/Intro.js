@@ -1,6 +1,7 @@
 import React, { useState, useRef } from 'react';
 import { Helmet } from 'react-helmet';
 import red_ts from '../../images/taylor_swift_red.jpeg';
+import sanketh from '../../images/my-picture.jpg';
 import myData from '../data.json';
 import './Intro.css';
 
@@ -12,7 +13,7 @@ function Intro() {
     blue: 'blue.css',
   };
 
-  const [currentTheme, setCurrentTheme] = useState(themes.green);
+  const [currentTheme, setCurrentTheme] = useState(themes.blue);
 
   console.log('current theme = ', currentTheme);
   return (
@@ -38,7 +39,7 @@ function Intro() {
           </div>
 
           <div className='left-column'>
-            <img src={red_ts} id='profile_pic' />
+            <img src={sanketh} id='profile_pic' />
 
             <h4 className='theme-header'>Choose theme</h4>
             <div id='theme-options-wrapper'>

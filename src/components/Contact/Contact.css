@@ -4,6 +4,7 @@
   width: min(1200px, 95%);
   margin: 0 auto;
   margin-top: var(--section-gap);
+  margin-bottom: 3rem;
 }
 
 #contact > h3 {
@@ -87,7 +88,7 @@
   color: #fff;
   background-color: var(--btnColor);
   border: none;
-  font-family: var(--secondary-font);
+  font-family: var(--header-font-2);
   font-size: 1.1rem;
   font-weight: 500;
 }

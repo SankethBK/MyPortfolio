@@ -18,7 +18,7 @@ function Navbar() {
               <a href='#about'>About</a>
             </li>
             <li className='nav-link'>
-              <a href='#'>Projects</a>
+              <a href='#projects'>Projects</a>
             </li>
             <li className='nav-link'>
               <a href='#contact'>Contact</a>
@@ -39,7 +39,7 @@ function Navbar() {
               <a href='#about'>About</a>
             </li>
             <li className='nav-link' style={{ '--order': 3 }}>
-              <a href='#'>Projects</a>
+              <a href='#projects'>Projects</a>
             </li>
             <li className='nav-link' style={{ '--order': 4 }}>
               <a href='#contact'>Contact</a>
