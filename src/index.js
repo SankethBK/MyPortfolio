@@ -4,27 +4,8 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-const injectGA = () => {
-  if (typeof window == 'undefined') {
-    return;
-  }
-  window.dataLayer = window.dataLayer || [];
-  function gtag() {
-    window.dataLayer.push(arguments);
-  }
-  gtag('js', new Date());
-
-  gtag('config', 'G-ZRQN8WRY7E');
-};
-
 ReactDOM.render(
   <React.StrictMode>
-    {/* Global site tag (gtag.js) - Google Analytics */}
-    <script
-      async
-      src='https://www.googletagmanager.com/gtag/js?id=G-ZRQN8WRY7E'
-    />
-    <script>{injectGA()}</script>
     <App />
   </React.StrictMode>,
   document.getElementById('root'),
