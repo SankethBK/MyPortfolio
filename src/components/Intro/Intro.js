@@ -1,8 +1,8 @@
 import React, { useState, useRef } from 'react';
 import { Helmet } from 'react-helmet';
 import red_ts from '../../images/taylor_swift_red.jpeg';
-import sanketh from '../../images/my-picture.jpg';
-import myData from '../data.json';
+import sanketh from '../../images/my-picture-2.jpeg';
+import myData from '../../data.json';
 import './Intro.css';
 
 function Intro() {
