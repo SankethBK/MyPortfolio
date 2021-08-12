@@ -51,7 +51,7 @@
 .about-section-1 .my-resume {
   background-color: var(--btnColor);
   margin: 1rem;
-  transition: 150ms ease-in;
+  transition: var(--color-transition);
 }
 
 .about-section-1 .my-resume:hover {
@@ -84,6 +84,7 @@
   border: 2px solid var(--textBoxOutline);
   background-color: var(--textBoxBackgroundColor);
   padding: var(--preview-shadow-distance);
+  transition: var(--color-transition);
 }
 
 .details-text #github-link {
@@ -221,6 +222,7 @@
   background-color: var(--textBoxBackgroundColor);
   border: 2px solid var(--textBoxOutline);
   padding: var(--preview-shadow-distance);
+  transition: var(--color-transition);
 }
 
 .skills-text p {

@@ -5,6 +5,7 @@
   margin: 0 auto;
   margin-top: var(--section-gap);
   background-color: var(--secondaryColor);
+  transition: var(--color-transition);
 }
 
 #projects .projects-header {

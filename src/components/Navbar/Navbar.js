@@ -7,7 +7,7 @@ function Navbar() {
 
   return (
     <header className='header'>
-      <nav>
+      <nav className='color-transition'>
         <div className='nav-container'>
           <div className='nav-logo'></div>
           <ul className='nav-links'>

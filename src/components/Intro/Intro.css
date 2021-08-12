@@ -184,6 +184,7 @@
   background-color: var(--previewShadow);
   bottom: var(--preview-shadow-distance);
   right: var(--preview-shadow-distance);
+  transition: var(--color-transition);
 }
 
 #preview p {

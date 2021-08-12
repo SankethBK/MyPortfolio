@@ -78,17 +78,26 @@ body {
   --menu-burger-height: 3px;
   --preview-shadow-distance: 30px;
   --section-gap: 5rem;
+
+  /* color transition */
+
+  --color-transition: all 600ms ease-in;
 }
 
-body,
+/* body,
 body *,
 *::before,
 *::after {
   transition: all 500ms ease-in;
+} */
+
+.color-transition {
+  transition: var(--color-transition);
 }
 
 body {
   background-color: var(--secondaryColor);
+  transition: var(--color-transition);
 }
 
 ul {

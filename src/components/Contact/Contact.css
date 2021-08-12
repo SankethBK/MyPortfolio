@@ -53,6 +53,7 @@
   font-weight: 600;
   letter-spacing: 0.05rem;
   margin-top: 1rem;
+  transition: var(--color-transition);
 }
 
 #contact-form .error-input {
@@ -75,6 +76,7 @@
   font-weight: 500;
   margin-bottom: 0.5rem;
   color: var(--secondaryText);
+  transition: var(--color-transition);
 }
 
 .input-field:focus {
@@ -102,6 +104,7 @@
   font-family: var(--header-font-2);
   font-size: 1.1rem;
   font-weight: 500;
+  transition: var(--color-transition);
 }
 
 .submit-btn:hover {

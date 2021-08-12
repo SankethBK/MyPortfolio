@@ -15,9 +15,8 @@ function Intro() {
 
   const [currentTheme, setCurrentTheme] = useState(themes.blue);
 
-  console.log('current theme = ', currentTheme);
   return (
-    <div className='container'>
+    <div className='container color-transition'>
       <Helmet>
         <link
           id='theme-style'
@@ -29,8 +28,8 @@ function Intro() {
         <div className='greeting-wrapper'>
           <h1>Hi i am {myData['greeting-name']}</h1>
         </div>
-        <div className='intro-wrapper'>
-          <div className='nav-wrapper'>
+        <div className='intro-wrapper color-transition'>
+          <div className='nav-wrapper color-transition'>
             <div className='dots-wrapper'>
               <div id='dot-1' className='browser-dot'></div>
               <div id='dot-2' className='browser-dot'></div>
@@ -72,7 +71,7 @@ function Intro() {
 
           <div className='right-column'>
             <div className='preview-wrapper'>
-              <div id='preview'>
+              <div id='preview' className='color-transition'>
                 <h3>What I do</h3>
 
                 <div id='corner-tl' className='corner'></div>
