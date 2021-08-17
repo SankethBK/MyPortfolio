@@ -27,8 +27,8 @@
 
 #projects .projects-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, 280px);
-  grid-auto-rows: 300px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 400px));
+  grid-auto-rows: 250px;
   gap: 2rem;
   justify-content: center;
 }

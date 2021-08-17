@@ -35,39 +35,32 @@
 
   "projects": [
     {
-      "name": "Project 1",
-      "thumbnail": "/project-thumbnails/p1.jpeg",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem nobis sit soluta. Magnam, dolorum a. Et, necessitatibus blanditiis! Distinctio, voluptatum.",
+      "name": "Swarmly",
+      "thumbnail": "/project-thumbnails/swarmly-1.png",
+      "description": "Swarmly is a decentralized full stack social media application built with Django REST framework and React.",
+      "source-code": "https://github.com/SankethBK/Decentralized-Social-Media",
+      "demo": "https://gallant-bell-95a482.netlify.app/"
+    },
+    {
+      "name": "Resume Maker",
+      "thumbnail": "/project-thumbnails/resume-maker-3.png",
+      "description": "Resume maker is a website which allows users to generate good looking resumes based on their input data. ",
+      "source-code": "https://github.com/SankethBK/Resume-Builder",
+      "demo": null
+    },
+    {
+      "name": "Online tic-tac-toe",
+      "thumbnail": "/project-thumbnails/tic-tac-toe-2.png",
+      "description": "Online multiplayer tic tac toe game built with client-server model. Players from different computers can play with each other.",
       "source-code": "https://github.com/SankethBK/MyPortfolio",
       "demo": null
     },
     {
-      "name": "Project 1",
-      "thumbnail": "/project-thumbnails/p1.jpeg",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem nobis sit soluta. Magnam, dolorum a. Et, necessitatibus blanditiis! Distinctio, voluptatum.",
-      "source-code": "https://github.com/SankethBK/MyPortfolio",
-      "demo": "here"
-    },
-    {
-      "name": "Project 1",
-      "thumbnail": "/project-thumbnails/p1.jpeg",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem nobis sit soluta. Magnam, dolorum a. Et, necessitatibus blanditiis! Distinctio, voluptatum.",
-      "source-code": "https://github.com/SankethBK/MyPortfolio",
-      "demo": "here"
-    },
-    {
-      "name": "Project 1",
-      "thumbnail": "/project-thumbnails/p1.jpeg",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem nobis sit soluta. Magnam, dolorum a. Et, necessitatibus blanditiis! Distinctio, voluptatum.",
-      "source-code": "https://github.com/SankethBK/MyPortfolio",
+      "name": "Clustering of News articles",
+      "thumbnail": "/project-thumbnails/news-data-analysis.png",
+      "description": "This project is about clustering of news articles from a big news data set and summarizing the news in entire dataset by using importaant keywords using big data tools.",
+      "source-code": "https://github.com/SankethBK/Analysis-of-News-data",
       "demo": null
-    },
-    {
-      "name": "Project 1",
-      "thumbnail": "/project-thumbnails/p1.jpeg",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem nobis sit soluta. Magnam, dolorum a. Et, necessitatibus blanditiis! Distinctio, voluptatum.",
-      "source-code": "https://github.com/SankethBK/MyPortfolio",
-      "demo": "here"
     }
   ]
 }

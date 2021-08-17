@@ -18,10 +18,16 @@ function Projects() {
                 <h3>{project.name}</h3>
                 <p>{project.description}</p>
                 <div className='project-links'>
-                  {project['demo'] && <a href={project['demo']}>demo</a>}
+                  {project['demo'] && (
+                    <a href={project['demo']} target='_blank'>
+                      demo
+                    </a>
+                  )}
 
                   {project['source-code'] && (
-                    <a href={project['source-code']}>source code</a>
+                    <a href={project['source-code']} target='_blank'>
+                      source code
+                    </a>
                   )}
                 </div>
               </div>
