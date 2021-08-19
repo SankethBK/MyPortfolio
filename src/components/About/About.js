@@ -17,7 +17,9 @@ function About() {
             <li>Nationality: {myData['details-list']['Nationality']}</li>
           </ul>
           <div className='my-resume'>
-            <a href='#'>Download My Resume</a>
+            <a href='https://drive.google.com/file/d/1fFOd2G7eV0JdYLEOnOQEt5Acd7Ot_sYM/view?usp=sharing'>
+              Download My Resume
+            </a>
           </div>
         </div>
 
