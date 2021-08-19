@@ -101,7 +101,7 @@
 .left-column #profile_pic {
   display: block;
   width: 200px;
-  height: 200px;
+  height: 230px;
   object-fit: cover;
   margin: 0 auto;
 }

@@ -12,7 +12,7 @@
     "Nationality": " Indian"
   },
 
-  "skills-text": "I am more focussed towards frontend, I also enjoy writing and deploying REST API's. I have worked with data visualization and machine learning libraries in Python. I have also completed some courses on Machine Learning and Deep Learning on Coursera, Udemy, etc.",
+  "skills-text": "I am more focussed towards frontend development, moderately good in backend development. I love to build innovative solutions for challenging problems.",
 
   "experienced-skills": [
     "Reactjs",
@@ -30,7 +30,7 @@
     "Python Data Science Libraries (Pandas, Matplotlib,...)",
     "PostgreSQL",
     "AWS",
-    "C++"
+    "Firebase"
   ],
 
   "projects": [

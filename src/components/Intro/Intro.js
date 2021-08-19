@@ -1,7 +1,6 @@
 import React, { useState, useRef } from 'react';
 import { Helmet } from 'react-helmet';
-import red_ts from '../../images/taylor_swift_red.jpeg';
-import sanketh from '../../images/my-picture-2.jpeg';
+import sanketh from '../../images/my-picture-5.jpeg';
 import myData from '../../data.json';
 import './Intro.css';
 
@@ -13,7 +12,7 @@ function Intro() {
     blue: 'blue.css',
   };
 
-  const [currentTheme, setCurrentTheme] = useState(themes.blue);
+  const [currentTheme, setCurrentTheme] = useState(themes.green);
 
   return (
     <div className='container color-transition'>
