@@ -212,16 +212,25 @@ function Contact() {
             <div className='contact-links-container'>
               <h3>Find me at</h3>
               <div className='contact-links'>
-                <a href='https://github.com/SankethBK'>
+                <a href='https://github.com/SankethBK' target='_blank'>
                   <i className='fab fa-github'></i>
                 </a>
-                <a href='https://www.instagram.com/sankethbk7777/'>
+                <a
+                  href='https://www.instagram.com/sankethbk7777/'
+                  target='_blank'
+                >
                   <i className='fab fa-instagram'></i>
                 </a>
-                <a href='https://www.linkedin.com/in/sanketh-b-k-a873111a3/'>
+                <a
+                  href='https://www.linkedin.com/in/sanketh-b-k-a873111a3/'
+                  target='_blank'
+                >
                   <i className='fab fa-linkedin-in'></i>
                 </a>
-                <a href='https://discord.com/users/sankethbk7777#3010/'>
+                <a
+                  href='https://discord.com/users/sankethbk7777#3010/'
+                  target='_blank'
+                >
                   <i className='fab fa-discord'></i>
                 </a>
               </div>

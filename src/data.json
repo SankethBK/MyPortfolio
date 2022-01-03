@@ -12,7 +12,7 @@
     "Nationality": " Indian"
   },
 
-  "skills-text": "I am more focussed towards frontend development, moderately good in backend development. I love to build innovative solutions for challenging problems.",
+  "skills-text": "I am more focussed towards backend development, moderately good in frontend development. I love to build innovative solutions for challenging problems.",
 
   "experienced-skills": [
     "Reactjs",
@@ -21,6 +21,7 @@
     "Python",
     "HTML",
     "CSS / SASS",
+    "Flutter / Dart",
     "Git"
   ],
 
