@@ -1,6 +1,6 @@
 import React from 'react';
 import './Projects.css';
-import myData from '../../data.json';
+import myData from '../../data/data.json';
 
 function Projects() {
   return (
@@ -13,7 +13,14 @@ function Projects() {
         {myData['projects'].map((project, index) => {
           return (
             <div key={index} className='card'>
-              <img src={project.thumbnail} alt={project.name + ' thumbnail'} />
+              {project.thumbnail ? (
+                <img
+                  src={project.thumbnail}
+                  alt={project.name + ' thumbnail'}
+                />
+              ) : (
+                <div className='project-name-box'>{project.name}</div>
+              )}
               <div className='info'>
                 <h3>{project.name}</h3>
                 <p>{project.description}</p>

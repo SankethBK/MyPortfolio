@@ -37,18 +37,17 @@
 
   "projects": [
     {
-      "name": "Swarmly",
-      "thumbnail": "/project-thumbnails/swarmly-1.png",
-      "description": "Swarmly is a decentralized full stack social media application built with Django REST framework and React.",
-      "source-code": "https://github.com/SankethBK/Decentralized-Social-Media",
-      "demo": "https://gallant-bell-95a482.netlify.app/"
+      "name": "Dairyaholic",
+      "thumbnail": "/project-thumbnails/feature-graphic.png",
+      "description": "Dairyaholic is a personal dairy application, it supports rich text, images, videos and cloud sync. It is written in Flutter",
+      "source-code": null,
+      "demo": "https://play.google.com/store/apps/details?id=me.sankethbk.dairyapp"
     },
     {
-      "name": "Resume Maker",
-      "thumbnail": "/project-thumbnails/resume-maker-3.png",
-      "description": "Resume maker is a website which allows users to generate good looking resumes based on their input data. ",
-      "source-code": "https://github.com/SankethBK/Resume-Builder",
-      "demo": null
+      "name": "Local Session Timeout",
+      "description": "It is a Flutter package which can be used for redirecting users to login page when application hasn't recieved any user interaction, or been running in the background for \"x\" duration",
+      "source-code": "https://github.com/SankethBK/local_session_timeout",
+      "demo": "https://pub.dev/packages/local_session_timeout"
     },
     {
       "name": "Online tic-tac-toe",

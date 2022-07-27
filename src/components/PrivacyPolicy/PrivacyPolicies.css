@@ -1,0 +1,111 @@
+.privacy-policy-container {
+  padding: 5rem 3rem;
+  width: min(80%, 1200px);
+  margin: 4rem auto;
+  position: relative;
+  align-self: center;
+  background-color: var(--textBoxBackgroundColor);
+  border: 2px solid var(--textBoxOutline);
+  padding: var(--preview-shadow-distance);
+  transition: var(--color-transition);
+}
+
+@media all and (max-width: 800px) {
+  .privacy-policy-container {
+    padding: 2rem 1rem;
+    width: 95%;
+  }
+}
+
+.privacy-policy-container .main-heading {
+  text-align: center;
+  font-size: 3rem;
+  font-family: var(--intro-font);
+  font-weight: 400;
+  color: var(--mainText);
+}
+
+@media all and (max-width: 800px) {
+  .privacy-policy-container .main-heading {
+    font-size: 2rem;
+  }
+}
+
+.privacy-policy-container .corner {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  border: 2px solid var(--textBoxOutline);
+  background-color: #fff;
+  position: absolute;
+}
+
+.privacy-policy-container #corner-tl {
+  top: -5px;
+  left: -5px;
+}
+
+.privacy-policy-container #corner-tr {
+  top: -5px;
+  right: -5px;
+}
+
+.privacy-policy-container #corner-bl {
+  bottom: -5px;
+  left: -5px;
+}
+
+.privacy-policy-container #corner-br {
+  bottom: -5px;
+  right: -5px;
+}
+
+.privacy-policy-container .secondary-heading {
+  font-size: 2rem;
+  font-family: var(--header-font-2);
+  color: var(--mainText);
+  margin: 2rem 0;
+}
+
+@media all and (max-width: 800px) {
+  .privacy-policy-container .secondary-heading {
+    font-size: 1.5rem;
+  }
+}
+
+.privacy-policy-container .content {
+  font-family: var(--header-font-1);
+  font-size: 1.3rem;
+  line-height: 1.3;
+  color: var(--secondaryText);
+}
+
+.privacy-policy-list {
+  margin-block: 1rem;
+  list-style-type: circle;
+  list-style-position: inside;
+}
+
+.privacy-policy-list > li {
+  font-family: var(--header-font-1);
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: var(--secondaryText);
+}
+
+.privacy-policy-container .contact-container {
+  display: flex;
+  margin-block: 1rem;
+}
+
+.privacy-policy-container .contact-icon-container {
+  width: 50px;
+  height: 50px;
+  display: grid;
+  place-items: center;
+}
+
+.buffer-space {
+  height: 10px;
+  width: 100%;
+}

@@ -1,5 +1,5 @@
 import React from 'react';
-import myData from '../../data.json';
+import myData from '../../data//data.json';
 import './About.css';
 
 function About() {

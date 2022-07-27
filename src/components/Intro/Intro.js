@@ -1,28 +1,18 @@
 import React, { useState, useRef } from 'react';
-import { Helmet } from 'react-helmet';
 import sanketh from '../../images/my-picture-5.jpeg';
-import myData from '../../data.json';
+import myData from '../../data/data.json';
 import './Intro.css';
 
-function Intro() {
-  const themes = {
-    white: '',
-    purple: 'purple.css',
-    green: 'green.css',
-    blue: 'blue.css',
-  };
+const themes = {
+  white: '',
+  purple: 'purple.css',
+  green: 'green.css',
+  blue: 'blue.css',
+};
 
-  const [currentTheme, setCurrentTheme] = useState(themes.green);
-
+function Intro({ changeTheme }) {
   return (
     <div className='container color-transition'>
-      <Helmet>
-        <link
-          id='theme-style'
-          rel='stylesheet'
-          href={`/themes/${currentTheme}`}
-        />
-      </Helmet>
       <div id='home' className='main-container'>
         <div className='greeting-wrapper'>
           <h1>Hi i am {myData['greeting-name']}</h1>
@@ -37,7 +27,7 @@ function Intro() {
           </div>
 
           <div className='left-column'>
-            <img src={sanketh} id='profile_pic' />
+            <img src={sanketh} id='profile_pic' alt='my profile' />
 
             <h4 className='theme-header'>Choose theme</h4>
             <div id='theme-options-wrapper'>
@@ -45,25 +35,26 @@ function Intro() {
                 data-mode='light'
                 id='light-mode'
                 className='theme-dot'
-                onClick={() => setCurrentTheme(themes.white)}
+                onClick={() => changeTheme(themes.white)}
               ></div>
               <div
                 data-mode='blue'
                 id='blue-mode'
                 className='theme-dot'
-                onClick={() => setCurrentTheme(themes.blue)}
+                onClick={() => changeTheme(themes.blue)}
               ></div>
               <div
                 data-mode='green'
                 id='green-mode'
                 className='theme-dot'
-                onClick={() => setCurrentTheme(themes.green)}
+                onClick={() => changeTheme(themes.green)}
               ></div>
               <div
                 data-mode='purple'
                 id='purple-mode'
                 className='theme-dot'
-                onClick={() => setCurrentTheme(themes.purple)}
+                R
+                onClick={() => changeTheme(themes.purple)}
               ></div>
             </div>
           </div>
