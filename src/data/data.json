@@ -58,15 +58,15 @@
     },
     {
       "name": "Clustering of News articles",
-      "thumbnail": "/project-thumbnails/news-data-analysis.png",
+      "thumbnail": null,
       "description": "This project is about clustering of news articles from a big news data set and summarizing the news in entire dataset by using importaant keywords using big data tools.",
       "source-code": "https://github.com/SankethBK/Analysis-of-News-data",
       "demo": null
     },
     {
       "name": "My Portfolio",
-      "thumbnail": "/project-thumbnails/my-portfolio.png",
-      "description": "This is my personal portfolio. You are on the same site",
+      "thumbnail": null,
+      "description": "This is my personal portfolio. You are on the same site. It is build with Reactjs",
       "source-code": "https://github.com/SankethBK/MyPortfolio",
       "demo": null
     }
