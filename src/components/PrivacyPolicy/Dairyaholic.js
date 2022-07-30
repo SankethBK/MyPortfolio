@@ -6,7 +6,7 @@ import EmailOutlinedIcon from '@material-ui/icons/EmailOutlined';
 function Dairyaholic() {
   return (
     <>
-      <div className='privacy-policy-container'>
+      <div className='privacy-policies-container'>
         <div id='corner-tl' className='corner'></div>
         <div id='corner-tr' className='corner'></div>
 
