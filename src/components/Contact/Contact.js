@@ -220,11 +220,11 @@ function Contact() {
                   <i className='fab fa-github'></i>
                 </a>
                 <a
-                  href='https://www.instagram.com/sankethbk7777/'
+                  href='https://medium.com/@sankethbk7777'
                   target='_blank'
                   rel='noreferrer'
                 >
-                  <i className='fab fa-instagram'></i>
+                  <i className='fab fa-medium'></i>
                 </a>
                 <a
                   href='https://www.linkedin.com/in/sanketh-b-k-a873111a3/'

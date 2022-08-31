@@ -1,8 +1,8 @@
 {
   "greeting-name": "Sanketh",
-  "what-i-do": "I am a Banglore based computer scinece gradute, aspiring full stack developer. I am open for jobs, internships and freelancing",
+  "what-i-do": "Currently working as Backend developer at Razorpay. Looking for Flutter and Javascript projects to work in my free time.",
 
-  "about-me-text": "Hi i am Sanketh. I am an undergraduate student at PES University, Banglore. I have 3 years of programming experience. I am about to complete my specialization in Machine Learning and Cybersecurity. I am looking forward for a career in full stack development.",
+  "about-me-text": "Hi i am Sanketh. I am a software developer with strong foundation in data structures and algorithms. Actively working on projects with MERN, Typescript, GraphQL, Flutter. I also write tech blogs on Medium.",
 
   "details-list": {
     "Name": " Sanketh B.K",
@@ -12,7 +12,7 @@
     "Nationality": " Indian"
   },
 
-  "skills-text": "I am more focussed towards backend development, moderately good in frontend development. I love to build innovative solutions for challenging problems.",
+  "skills-text": "I love to create applications with unique use-cases. I am more inclined towards the solution than the language used to implement them. I have also contrinuted to Flutter open source community.",
 
   "experienced-skills": [
     "Reactjs",
