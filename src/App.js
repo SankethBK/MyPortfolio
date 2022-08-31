@@ -12,7 +12,7 @@ import './App.css';
 import Dairyaholic from './components/PrivacyPolicy/Dairyaholic';
 
 function App() {
-  const [currentTheme, setCurrentTheme] = useState('green.css');
+  const [currentTheme, setCurrentTheme] = useState('blue.css');
 
   return (
     <>
