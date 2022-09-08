@@ -22,18 +22,12 @@
     "HTML",
     "CSS / SASS",
     "Flutter / Dart",
-    "Git"
+    "Git",
+    "Node.js",
+    "MongoDB"
   ],
 
-  "familiar-skills": [
-    "Node.js",
-    "MongoDB",
-    "Python Data Science Libraries (Pandas, Matplotlib,...)",
-    "PostgreSQL",
-    "AWS",
-    "Docker",
-    "Firebase"
-  ],
+  "familiar-skills": ["Golang", "PostgreSQL", "AWS", "Docker", "Firebase"],
 
   "projects": [
     {
