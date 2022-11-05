@@ -44,11 +44,10 @@
       "demo": "https://pub.dev/packages/local_session_timeout"
     },
     {
-      "name": "Online tic-tac-toe",
-      "thumbnail": "/project-thumbnails/tic-tac-toe-2.png",
-      "description": "Online multiplayer tic tac toe game built with client-server model. Players from different computers can play with each other.",
-      "source-code": "https://github.com/SankethBK/MyPortfolio",
-      "demo": null
+      "name": "Flutter Sticky Widgets",
+      "description": "With flutter_sticky_widgets you can use a widget as if it is position: sticky; in CSS.",
+      "source-code": "https://github.com/SankethBK/flutter_sticky_widgets",
+      "demo": "https://pub.dev/packages/flutter_sticky_widgets"
     },
     {
       "name": "Clustering of News articles",
