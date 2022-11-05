@@ -16,11 +16,11 @@ function About() {
             <li>University: {myData['details-list']['University']}</li>
             <li>Nationality: {myData['details-list']['Nationality']}</li>
           </ul>
-          <div className='my-resume'>
+          {/* <div className='my-resume'>
             <a href='https://drive.google.com/file/d/1fFOd2G7eV0JdYLEOnOQEt5Acd7Ot_sYM/view?usp=sharing'>
               Download My Resume
             </a>
-          </div>
+          </div> */}
         </div>
 
         <div className='about-section-2'>
