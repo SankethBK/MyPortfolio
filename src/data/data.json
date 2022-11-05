@@ -31,10 +31,10 @@
 
   "projects": [
     {
-      "name": "Dairyaholic",
+      "name": "Diaryaholic",
       "thumbnail": "/project-thumbnails/feature-graphic.png",
-      "description": "Dairyaholic is a personal dairy application, it supports rich text, images, videos and cloud sync. It is written in Flutter",
-      "source-code": null,
+      "description": "Diaryaholic is a personal dairy application, it supports rich text, images, videos and cloud sync. It is written in Flutter",
+      "source-code": "https://github.com/SankethBK/diaryaholic",
       "demo": "https://play.google.com/store/apps/details?id=me.sankethbk.dairyapp"
     },
     {
