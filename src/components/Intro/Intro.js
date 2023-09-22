@@ -1,5 +1,5 @@
 import React, { useState, useRef } from 'react';
-import sanketh from '../../images/my-picture-5.jpeg';
+import sanketh from '../../images/my-profile.png';
 import myData from '../../data/data.json';
 import './Intro.css';
 

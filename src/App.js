@@ -36,7 +36,7 @@ function App() {
             </div>
           }
         />
-        <Route path='/privacy-policies/diaryvault' element={<DiaryVault />} />
+        <Route path='/privacy-policies/dairyaholic' element={<DiaryVault />} />
       </Routes>
     </>
   );
