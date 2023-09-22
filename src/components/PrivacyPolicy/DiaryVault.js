@@ -3,7 +3,7 @@ import React from 'react';
 import './PrivacyPolicies.css';
 import EmailOutlinedIcon from '@material-ui/icons/EmailOutlined';
 
-function Dairyaholic() {
+function DiaryVault() {
   return (
     <>
       <div className='privacy-policies-container'>
@@ -11,33 +11,33 @@ function Dairyaholic() {
         <div id='corner-tr' className='corner'></div>
 
         {/* --- */}
-        <h1 className='main-heading'>Dairyaholic Privacy Policies</h1>
+        <h1 className='main-heading'>DiaryVault Privacy Policies</h1>
 
         {/* --- */}
         <h3 className='secondary-heading'>Introduction</h3>
         <p className='content'>
           Our privacy policy will help you understand what information we
-          collect at Dairyaholic, how Dairyaholic uses it, and what choices you
-          have. Dairyaholic built the Dairyaholic app as a free app. This
-          SERVICE is provided by Dairyaholic at no cost and is intended for use
-          as is. If you choose to use our Service, then you agree to the
-          collection and use of information in relation with this policy. The
-          Personal Information that we collect are used for providing and
-          improving the Service. We will not use or share your information with
-          anyone except as described in this Privacy Policy. The terms used in
-          this Privacy Policy have the same meanings as in our Terms and
-          Conditions, which is accessible in our website, unless otherwise
-          defined in this Privacy Policy.
+          collect at DiaryVault, how DiaryVault uses it, and what choices you
+          have. DiaryVault built the DiaryVault app as a free app. This SERVICE
+          is provided by DiaryVault at no cost and is intended for use as is. If
+          you choose to use our Service, then you agree to the collection and
+          use of information in relation with this policy. The Personal
+          Information that we collect are used for providing and improving the
+          Service. We will not use or share your information with anyone except
+          as described in this Privacy Policy. The terms used in this Privacy
+          Policy have the same meanings as in our Terms and Conditions, which is
+          accessible in our website, unless otherwise defined in this Privacy
+          Policy.
         </p>
 
         {/* --- */}
         <h3 className='secondary-heading'>Information Collection and Use</h3>
         <p className='content'>
           We only collect user credentials (email and password). Your notes,
-          images and videos belonging to Dairyaholic will be stored in your
+          images and videos belonging to DiaryVault will be stored in your
           google drive only if you consent the app to do so. We do not collect
           any of your personal data including notes, images and videos which are
-          part of Dairyaholic app. Your email will be used only to send password
+          part of DiaryVault app. Your email will be used only to send password
           recovery emails when you request for same.
         </p>
 
@@ -103,7 +103,7 @@ function Dairyaholic() {
         <p className='content'>
           We have ensured our app does not cause data loss under normal
           circumstances. However, there are higher risks involved while syncing
-          notes with cloud and Dairyaholic will not be accountable for any data
+          notes with cloud and DiaryVault will not be accountable for any data
           loss that might occur.
         </p>
 
@@ -144,4 +144,4 @@ function Dairyaholic() {
   );
 }
 
-export default Dairyaholic;
+export default DiaryVault;

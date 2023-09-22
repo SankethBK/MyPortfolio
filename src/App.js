@@ -9,7 +9,7 @@ import { useState } from 'react';
 import { Helmet } from 'react-helmet';
 
 import './App.css';
-import Dairyaholic from './components/PrivacyPolicy/Dairyaholic';
+import DiaryVault from './components/PrivacyPolicy/DiaryVault';
 
 function App() {
   const [currentTheme, setCurrentTheme] = useState('blue.css');
@@ -36,7 +36,7 @@ function App() {
             </div>
           }
         />
-        <Route path='/privacy-policies/dairyaholic' element={<Dairyaholic />} />
+        <Route path='/privacy-policies/diaryvault' element={<DiaryVault />} />
       </Routes>
     </>
   );
