@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "me.sankethbk.dairyapp",
+      "sha256_cert_fingerprints": [
+        "84:99:53:D6:48:0F:53:27:8A:6A:91:16:A3:BE:2B:1F:7F:0E:CB:6A:FA:71:BC:8C:88:12:F7:86:7B:C0:29:7F"
+      ]
+    }
+  }
+]
