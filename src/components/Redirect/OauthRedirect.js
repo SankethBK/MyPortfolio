@@ -18,18 +18,7 @@ const OauthRedirect = () => {
     window.location.href = redirectUrl;
   }, []);
 
-  return (
-    <>
-      <h1>THis is redirection page</h1>
-      <p>you should be redirected soon </p>
-      <h1>THis is redirection page</h1>
-      <p>you should be redirected soon </p>
-      <h1>THis is redirection page</h1>
-      <p>you should be redirected soon </p>
-      <h1>THis is redirection page</h1>
-      <p>you should be redirected soon </p>
-    </>
-  );
+  return <></>;
 };
 
 export default OauthRedirect;
