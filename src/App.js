@@ -10,6 +10,7 @@ import { Helmet } from 'react-helmet';
 
 import './App.css';
 import DiaryVault from './components/PrivacyPolicy/DiaryVault';
+import OauthRedirect from './components/Redirect/OauthRedirect';
 
 function App() {
   const [currentTheme, setCurrentTheme] = useState('blue.css');
@@ -37,6 +38,7 @@ function App() {
           }
         />
         <Route path='/privacy-policies/dairyaholic' element={<DiaryVault />} />
+        <Route path='/oauth2redirect' element={<OauthRedirect />} />
       </Routes>
     </>
   );
